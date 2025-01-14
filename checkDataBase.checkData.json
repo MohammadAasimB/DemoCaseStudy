@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "673dea2be411037cf4f65f89"
+  },
+  "name": "tee",
+  "age": 45,
+  "salary": {
+    "$numberLong": "35000"
+  },
+  "department": "test department",
+  "checkTwo": [
+    {
+      "$ref": "checkTwoData",
+      "$id": "abc1"
+    }
+  ],
+  "_class": "com.example.check.model.Check"
+},
+{
+  "_id": {
+    "$oid": "673deb85e411037cf4f65f8a"
+  },
+  "name": "test1",
+  "age": 45,
+  "salary": {
+    "$numberLong": "35000"
+  },
+  "department": "test department",
+  "checkTwo": [
+    {
+      "$ref": "checkTwoData",
+      "$id": {
+        "$oid": "673de7f2e411037cf4f65f84"
+      }
+    }
+  ],
+  "_class": "com.example.check.model.Check"
+},
+{
+  "_id": {
+    "$oid": "673dec36e411037cf4f65f8b"
+  },
+  "name": "test2",
+  "age": 43,
+  "salary": {
+    "$numberLong": "45000"
+  },
+  "department": "test2 department",
+  "checkTwo": [
+    {
+      "$ref": "checkTwoData",
+      "$id": {
+        "$oid": "673de7f2e411037cf4f65f84"
+      }
+    }
+  ],
+  "_class": "com.example.check.model.Check"
+},
+{
+  "_id": {
+    "$oid": "675ab4353cc454341d70e8b0"
+  },
+  "name": "mubbu",
+  "age": 40,
+  "salary": {
+    "$numberLong": "1000000000"
+  },
+  "department": "dev",
+  "_class": "com.example.check.model.Check"
+}]

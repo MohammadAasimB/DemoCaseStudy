@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "673de7f2e411037cf4f65f84"
+  },
+  "type": "type1",
+  "_class": "com.example.check.model.CheckTwo"
+},
+{
+  "_id": {
+    "$oid": "673de803e411037cf4f65f85"
+  },
+  "type": "type2",
+  "_class": "com.example.check.model.CheckTwo"
+},
+{
+  "_id": {
+    "$oid": "673de807e411037cf4f65f86"
+  },
+  "type": "type3",
+  "_class": "com.example.check.model.CheckTwo"
+}]
